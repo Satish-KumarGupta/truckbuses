@@ -1,0 +1,161 @@
+
+/* form style for registration page */
+
+.heading{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+  }
+  
+  
+  .formstyle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    gap: 20px;
+
+  }
+  
+  
+  .containerdiv{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: start;
+  }
+  .containerdivleft{
+    /* width: 400px; */
+    margin: auto;
+    font-size: 20px;
+  }
+  
+  .containerdivinput{
+    width: 100%;    
+    border: 1px solid gray;
+    padding: 10px;
+    /* border-radius: 10px; */
+    font-size: 16PX;
+  }
+  
+  .containerdivright{
+    font-size: 20px;
+  }
+  
+  
+  .formbtn{
+    width: 500px;
+    background: rgb(115, 115, 199);
+    padding: 20px;
+    margin: auto;
+    
+  }
+  
+  
+  @media(max-width:768px){
+    .containerdivinput{
+      width:100%;   
+      display: flex;
+      font-size: smaller;
+    }
+  
+    .formbtn{
+      width: 200px;
+      background: rgb(115, 115, 199);
+      padding: 10px;
+      margin: auto;
+      
+    }
+    .containerdivleft{
+     width: 100%; 
+    }
+    .containerdivright{
+      width: 100%;
+      
+    }
+    .formstyle{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 !important;
+      gap: 10px !important;
+     
+    }
+    
+  }
+  
+  @media(max-width:425px){
+    .containerdivinput{
+      width:400px;    
+      display: flex;
+      font-size: smaller;
+    }
+  
+    .formbtn{
+      width: 200px;
+      background: rgb(115, 115, 199);
+      padding: 10px;
+      margin: auto;
+      
+    }
+    .containerdivleft{
+     width: 100%; 
+    }
+    .containerdivright{
+      width: 100%;
+  
+    }
+    .formstyle{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 !important;
+      gap: 10px !important;
+      
+    }
+    
+  }
+  @media(max-width:375px){
+    .containerdivinput{
+      width:300px;    
+      display: flex;
+      font-size: smaller;
+    }
+  
+    .formbtn{
+      width: 200px;
+      background: rgb(115, 115, 199);
+      padding: 10px;
+      margin: auto;
+      
+    }
+    .containerdivleft{
+     width: 100%; 
+    }
+    .containerdivright{
+      width: 100%;
+  
+    }
+    .formstyle{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 !important;
+      gap: 10px !important;
+     
+    }
+    
+  }
+  
+  
+  /* wrap stop on operation button */
+  .wrap{
+    white-space: nowrap;
+  }
+  .shadow{
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
